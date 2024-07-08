@@ -1,0 +1,147 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    font-family: sans-serif;
+}
+
+div.page1{
+    width: 100%;
+    background: #F1F2F7;
+    padding: 1.3vw 0vw 0vw 0vw;
+}
+
+div.top-header{
+    width: 80vw;
+    height: 6vw;
+    background-color: #343334;
+    background: linear-gradient(to right,#D4145A , #ee6e9d);
+    display: block;
+    margin: 0vw auto 0vw auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.stock_market{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 2.6vw;
+}
+
+div.main{
+    width: 80vw;
+    display: block;
+    margin: 1.5vw auto 0vw auto; 
+    border-radius: 0.2vw;
+    padding: 2vw 0vw 2vw 0vw;
+    background: white;
+}
+
+div.search{
+    display: flex;
+    margin: 0vw 3vw 0vw 3vw;
+}
+
+input.stocks{
+    width: 65vw;
+    height: 2.9vw;
+    outline: none;
+    display: block;
+    margin: 0vw auto 0vw auto; 
+    border-radius: 0.4vw;
+    font-size: 1.1vw;
+    padding: 0vw 0vw 0vw 1vw;
+    border: 1px solid gray;
+}
+
+button.btn{
+    width: 6.3vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    border-radius: 0.3vw;
+}
+
+div.stock-details{
+    width: 40vw;
+    border: 1px solid #FFFFFF;
+    margin: 1.5vw auto 0vw auto;
+    border-radius: 0.3vw;
+    padding: 0vw 2vw 1vw 2vw;
+    font-family: "PT Sans", sans-serif;
+    background-color: #ffe4b5;
+    display:none;
+}
+
+h3.stock_details-head{
+    font-size: 2.3vw;
+    margin: 1.2vw auto 0vw auto;
+    font-weight: 600;
+    color:#029275;
+}
+
+p.company-name{
+    margin: 0.2vw 0vw 0vw 0vw;
+    font-size: 2.1vw;
+    font-weight: 700;
+    color: #DD2476;
+}
+
+p.stock-price{
+    color: green;
+}
+
+p.stock-price,p.stock-change{
+    margin: 0.5vw 0vw 0vw 0vw;
+    font-size: 1.6vw;
+}
+
+table.data-table{
+    margin: 0.9vw 0vw 0vw 0vw;
+    width: 35.8vw;
+    text-align: center;
+    border: 1px solid whitesmoke;
+} 
+
+th.cols,td.rows{
+    background: #FFFFFF;
+    padding: 0.4vw;
+}
+
+th.cols{
+    background: #029275;
+    color: white;
+}
+
+td.rows{
+    border-bottom: 2px solid #029275;
+    background: #F7F7F7;
+    transition: all 0.5s;
+}
+
+table:hover td.rows{
+    color: #029275
+}
+
+div.main2{
+    padding: 1.9vw 0vw 2.7vw 4vw;
+}
+
+table.global-market-table,table.gainers-losers{
+    width: 70vw;
+    margin: 1.8vw 0vw 0vw 0vw;
+}
+
+tbody.global-thead,thead.head-cols{
+    text-align: center;
+}
+
+@media(300px <= width <= 600px){
+
+}
